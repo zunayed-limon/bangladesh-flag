@@ -1,0 +1,58 @@
+/* Styles for larger devices */
+
+.header-text{
+    text-align: center;
+    margin: 50px 0px 40px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.background{
+    width: 400px;
+    height: 240px;
+    background-color: #006a4e;
+    position: relative;
+    margin: auto;
+}
+
+.circle{
+    background-color: red;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Media queries for smaller devices */
+
+@media screen and (max-width: 480px) {
+    .header-text {
+        font-size: 18px;
+    }
+    .background {
+        width: 100%;
+        height: 200px;
+    }
+    .circle {
+        width: 110px;
+        height: 110px;
+        transform: translate(-60%, -50%);
+    }
+    footer {
+        font-size: 10px;
+    }
+}
